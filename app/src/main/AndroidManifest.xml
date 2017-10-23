@@ -29,42 +29,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.android.miwokfragments.NumbersActivity"
-            android:label="@string/category_numbers"
-            android:parentActivityName="com.example.android.miwokfragments.MainActivity">
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.miwokfragments.MainActivity"/>
-        </activity>
-        <activity
-            android:name="com.example.android.miwokfragments.FamilyActivity"
-            android:label="@string/category_family"
-            android:parentActivityName="com.example.android.miwokfragments.MainActivity">
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.miwokfragments.MainActivity"/>
-        </activity>
-        <activity
-            android:name="com.example.android.miwokfragments.ColorsActivity"
-            android:label="@string/category_colors"
-            android:parentActivityName="com.example.android.miwokfragments.MainActivity">
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.miwokfragments.MainActivity"/>
-        </activity>
-        <activity
-            android:name="com.example.android.miwokfragments.PhrasesActivity"
-            android:label="@string/category_phrases"
-            android:parentActivityName="com.example.android.miwokfragments.MainActivity">
-            <!-- Parent activity meta-data to support 4.0 and lower -->
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.miwokfragments.MainActivity"/>
-        </activity>
     </application>
 
 </manifest>
